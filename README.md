@@ -18,3 +18,6 @@ RulesExecutor.
 Checks whether a new file matches the specified pattern or not.
   - In case of success it performs file name modifications and moves the file to specified folder.
   - In case of failure it moves the file to default folder (default folder is defined in config also)
+
+#
+Utils. Just extensions class for strings modifications.
