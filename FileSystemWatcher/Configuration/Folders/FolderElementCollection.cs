@@ -1,17 +1,17 @@
 ﻿using System.Configuration;
 
-namespace FileSystemWatcher.Configuration
+namespace FileSystemWatcher.Configuration.Folders
 {
-    public class RuleElementCollection : ConfigurationElementCollection
+    public class FolderElementCollection : ConfigurationElementCollection
     {
         protected override ConfigurationElement CreateNewElement()
         {
-            return new RuleElement();
+            return new FolderElement();
         }
 
         protected override object GetElementKey(ConfigurationElement element)
         {
-            return ((RuleElement)element).Pattern;
+            return ((FolderElement)element).FolderPath;
         }
     }
 }

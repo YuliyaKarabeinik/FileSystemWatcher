@@ -1,5 +1,6 @@
 ﻿using System.Configuration;
-using ConfigurationSectionSample.Configuration;
+using FileSystemWatcher.Configuration.Folders;
+using FileSystemWatcher.Configuration.Rules;
 
 namespace FileSystemWatcher.Configuration
 {

@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
+using FileSystemWatcher.Configuration.Folders;
+using FileSystemWatcher.Configuration.Rules;
 
 namespace FileSystemWatcher.Configuration
 {

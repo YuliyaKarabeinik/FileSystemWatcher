@@ -1,6 +1,6 @@
 ﻿using System.Configuration;
 
-namespace FileSystemWatcher.Configuration
+namespace FileSystemWatcher.Configuration.Rules
 {
     public class RuleElement : ConfigurationElement
     {

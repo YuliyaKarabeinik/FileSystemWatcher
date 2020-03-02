@@ -1,6 +1,6 @@
 ﻿using System.Configuration;
 
-namespace ConfigurationSectionSample.Configuration
+namespace FileSystemWatcher.Configuration
 {
     public class CultureElement : ConfigurationElement
     {

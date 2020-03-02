@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationSectionSample", "ConfigurationSectionSample\ConfigurationSectionSample.csproj", "{A8912B47-C8E7-4180-BBF5-69C6AA0B417F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystemWatcher", "FileSystemWatcher\FileSystemWatcher.csproj", "{68060A85-8207-4C95-8E90-9CC06CB4E63E}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A8912B47-C8E7-4180-BBF5-69C6AA0B417F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A8912B47-C8E7-4180-BBF5-69C6AA0B417F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A8912B47-C8E7-4180-BBF5-69C6AA0B417F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A8912B47-C8E7-4180-BBF5-69C6AA0B417F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{68060A85-8207-4C95-8E90-9CC06CB4E63E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{68060A85-8207-4C95-8E90-9CC06CB4E63E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68060A85-8207-4C95-8E90-9CC06CB4E63E}.Release|Any CPU.ActiveCfg = Release|Any CPU
